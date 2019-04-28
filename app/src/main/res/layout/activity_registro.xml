@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Registro">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="93dp"
+        android:layout_height="31dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:text="REGISTRO" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="396dp"
+            android:layout_height="407dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="50dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="INGRESE NOMBRES"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="INGRESE APELLIDOS"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="INGRESE CORREO"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="374dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="INGRESE CLAVE"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/editText7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="REPETIR CLAVE"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="137dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="50dp"
+                android:text="@string/RE" />
+
+        </LinearLayout>
+
+    </TableLayout>
+</LinearLayout>
